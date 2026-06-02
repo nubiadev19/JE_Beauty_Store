@@ -79,19 +79,5 @@ public class Cita {
         this.estado = estado;
     }
     
-    public void agregarPedido(){
-        
-    }
-    
-    public void modificarPedido(){
-        
-    }
-    
-    public void eliminarPedido(){
-        
-    }
-    
-    public void mostrarPedido(){
-        
-    }
+ 
 }

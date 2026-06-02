@@ -65,7 +65,10 @@ public class PedidoBuilderConcreto implements PedidoBuilder {
 
     @Override
     public Pedido build() {
-        this.pedido.setEstado("Pendiente");
+       this.pedido.setEstado("Pendiente");
+        
+        // CORRECCIÓN: Le pasamos el cliente acumulado en el builder al pedido
+        this.pedido.setCliente(this.cliente);
         
         Pedido resultado = this.pedido;
         this.reset();

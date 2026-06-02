@@ -51,7 +51,9 @@ public class Producto implements ProductoProtoTp {
     public void setDescripcion(String descripcion) {
         this.descripcion = descripcion;
     }
-    
+        public String getNombre() {
+        return nombre;
+    }
     
 //implementacion del patron prototype
     @Override
